@@ -15,6 +15,7 @@ public class NetworkRequestTable {
 		add(Constants.CMSG_TEST, "RequestTest");
 		add(Constants.CMSG_REG, "RequestRegister");
 		add(Constants.CMSG_LVUP, "RequestLvUp");
+		add(Constants.CMSG_MATCH_PLAYER, "RequestMatchPlayer");//208
 	}
 	
 	public static void add(short request_id, string name) {

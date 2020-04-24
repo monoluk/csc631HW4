@@ -15,6 +15,7 @@ public class NetworkResponseTable {
 		add(Constants.SMSG_REG, "ResponseRegister");//205
 		add(Constants.SMSG_ADDM, "ResponseAddMoney");//206
 		add(Constants.SMSG_LVUP, "ResponseLvUp");//207
+		add(Constants.SMSG_MATCH_PLAYER, "ResponseMatchPlayer");//208
 	}
 	
 	public static void add(short response_id, string name) {

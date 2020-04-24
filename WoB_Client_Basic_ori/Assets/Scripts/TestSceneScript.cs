@@ -17,4 +17,10 @@ public class TestSceneScript : MonoBehaviour {
 		newTerrain.layer = 9;
 		newTerrain.GetComponent<Terrain>().enabled = true;
 	}
+
+public void loadMultiplayerScene(){
+	Debug.Log("load scence clicked");
+	SceneManager.LoadScene("Multiplayer");
+}
+
 }

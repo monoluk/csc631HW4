@@ -2,7 +2,7 @@ public class Constants {
 	
 	// Constants
 	public static readonly string CLIENT_VERSION = "1.00";
-	public static readonly string REMOTE_HOST = "192.168.0.20";
+	public static readonly string REMOTE_HOST = "192.168.0.21";
 	public static readonly int REMOTE_PORT = 9252;
 	
 	// Request (1xx) + Response (2xx)
@@ -20,6 +20,8 @@ public class Constants {
 	public static readonly short SMSG_ADDM = 206;
 	public static readonly short CMSG_LVUP = 107;
 	public static readonly short SMSG_LVUP = 207;
+	public static readonly short CMSG_MATCH_PLAYER = 108;
+	public static readonly short SMSG_MATCH_PLAYER = 208;
 	
 	// Other
 	public static readonly string IMAGE_RESOURCES_PATH = "Images/";
